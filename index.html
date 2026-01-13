@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - BLANEX</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/logo.png">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<!-- ====== NAVIGATION ====== -->
+<header class="navbar">
+  <div class="container">
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png"></a>
+    </div>
+    <nav class="nav-wrapper">
+      <ul class="nav-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="wishlist.html">Wishlist</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <!-- ====== HERO BANNER ====== -->
+  <section class="hero">
+    <img src="images/hero-banner.png" alt="Hero Banner">
+    <div class="hero-text">
+      <h1>New Arrivals</h1>
+      <p>Check out our latest collection</p>
+    </div>
+  </section>
+
+  <!-- ====== FEATURED PRODUCTS ====== -->
+  <section class="products container">
+    <h2 class="section-title">Featured Products</h2>
+<div class="product-grid">
+
+      <!-- REPEAT THIS BLOCK FOR EACH PRODUCT -->
+  <div class="product-card">
+  <div class="product-image swap">
+  <img src="images/maxfront.png" class="img-main">
+  <img src="images/maxback.png" class="img-hover">
+  </div>
+  <h3 class="product-name"> Aztec Flame</h3>
+
+  <button 
+    class="wishlist-btn"
+    data-name="Aztec Flame"
+    data-image="images/maxfront.png">
+    ♡ Add to Wishlist
+  </button>
+  </div>
+
+      <!-- END PRODUCT CARD -->
+
+  <div class="product-card">
+  <div class="product-image swap">
+  <img src="images/usafront.png" class="img-main">
+  <img src="images/usaback.png" class="img-hover">
+  </div>
+  <h3 class="product-name"> Liberty Strike</h3>
+
+  <button 
+    class="wishlist-btn"
+    data-name="Liberty Strike"
+    data-image="images/usafront.png">
+    ♡ Add to Wishlist
+  </button>
+  </div>
+
+  <div class="product-card">
+  <div class="product-image swap">
+  <img src="images/canfront.png" class="img-main">
+  <img src="images/canback.png" class="img-hover">
+  </div>
+  <h3 class="product-name"> Northern Fury</h3>
+
+  <button 
+    class="wishlist-btn"
+    data-name="Northern Fury"
+    data-image="images/canfront.png">
+    ♡ Add to Wishlist
+  </button>
+  </div>
+
+  <div class="product-card slideshow"
+     data-images='["images/redbag.png","images/blackbag.png","images/whitebag.png","images/bluebag.png"]'>
+  <img src="images/redbag.png" class="slideshow-img">
+
+  <h3 class="product-name">Shoe Storage Bags</h3>
+
+  <button class="wishlist-btn"
+    data-name="Shoe Storage Bags"
+    data-image="images/redbag.png">
+    ♡ Add to Wishlist
+  </button>
+</div>
+
+
+  <div class="product-card slideshow"
+     data-images='["images/whitebottle.png","images/blackbottle.png","images/bluebottle.png","images/redbottle.png"]'>
+  <img src="images/whitebottle.png" class="slideshow-img">
+
+  <h3 class="product-name">Water Bottle</h3>
+  <button class="wishlist-btn"
+    data-name="Water Bottle"
+    data-image="images/whitebottle.png">
+    ♡ Add to Wishlist
+  </button>
+</div>
+
+  
+
+</div>
+  </section>
+
+  <!-- ====== NEWSLETTER SIGNUP ====== -->
+  <section class="newsletter">
+    <div class="container">
+      <h2>Subscribe & Enjoy 15% Off</h2>
+      <form action="https://formspree.io/f/mvgrnedo" method="POST" class="subscribe-form">
+      <input type="email" name="email" id="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="about.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <p>&copy; 2026 BLANEX</p>
+    </div>
+  </footer>
+
+</body>
+</html>
